@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+/* Header */
+#heading{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: white;
+}
+
+/* 🔍 Search Box */
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+/* Input field */
+.search-box input{
+    padding: 10px 15px;
+    width: 220px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Button */
+.search-box button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #ff7b00;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Button hover */
+.search-box button:hover{
+    background: #e66a00;
+    transform: scale(1.05);
+}
+
+/* Profile container */
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Cards */
+.cards{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.cards:hover{
+    transform: translateY(-5px);
+}
+
+/* Image */
+.cards img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Name */
+.cards h2{
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Button link */
+.cards a{
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cards a:hover{
+    background: #0056b3;
+}

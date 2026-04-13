@@ -1,0 +1,66 @@
+/* Full page styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Button container */
+.but {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Button styling */
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* Individual button colors */
+button:nth-child(1) {
+  background-color: red;
+}
+
+button:nth-child(2) {
+  background-color: blue;
+}
+
+button:nth-child(3) {
+  background-color: orange;
+}
+
+button:nth-child(4) {
+  background-color: green;
+}
+
+button:nth-child(5) {
+  background-color: pink;
+  color: black;
+}
+
+/* Hover effect */
+button:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}

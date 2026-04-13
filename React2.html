@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+</head>
+<body>
+
+<div id="root"></div>
+
+<script>
+    let element = React.createElement("h1", {id:"first", className:"firstclass", style:{ backgroundColor:"red", color:"white"}},"Hello g kaise ho aap sab");
+
+    let react_root = ReactDOM.createRoot(document.getElementById("root"));
+
+    react_root.render(element);
+</script>
+
+</body>
+</html>

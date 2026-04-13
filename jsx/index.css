@@ -1,0 +1,9 @@
+#first{
+    background-color: red;
+    color: white;
+}
+#root{
+    background-color: black;
+    color: red;
+    border: 1px solid magenta;
+}

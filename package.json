@@ -1,0 +1,19 @@
+{
+  "name": "react_learning",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel React3.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "i": "^0.3.7",
+    "parcel": "^2.16.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-redux": "^9.2.0"
+  },
+  "main": "clouser.js"
+}
